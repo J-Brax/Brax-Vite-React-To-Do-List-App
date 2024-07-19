@@ -1,7 +1,6 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(120deg, #9235db, #384fde, #81e0eb);
   padding: 10px;
 }
 
@@ -14,20 +13,6 @@
   border-radius:50px;
 }
 
-@media (max-width: 768px) {
-  .todo-app {
-      margin: 50px auto 20px;
-      padding: 20px 15px 35px;
-  }
-}
-
-@media (max-width: 480px) {
-  .todo-app {
-      margin: 20px auto 10px;
-      padding: 10px 7px 17px;
-  }
-}
-
 .todo-app h1 {
   color: #080f3d;
   display: flex;
@@ -36,6 +21,8 @@
   justify-content: center;
   font-family: 'Anton SC', sans-serif;
 }
+
+
 
 h1 .brax {
   height: 2.5em;

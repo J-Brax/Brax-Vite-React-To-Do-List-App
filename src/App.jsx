@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import logo from './assets/images/logo.png';
-import brax from './assets/images/brax-text.png';
 
 function App() {
   const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem('tasks')) || []);
@@ -68,10 +66,14 @@ function App() {
 
   return (
     <div className="container">
-      <img className="logo" src={logo} alt="Logo" />
+      <div className="wave"></div>
+      <div className="wave"></div>
+      <div className="wave"></div>
+      
+      <img className="logo" src="/src/assets/logo.png" alt="Logo" />
       <div className="todo-app">
         <h1>
-          <img className="brax" src={brax} alt="Brax logo" /> to-do list
+          <img className="brax" src="/src/assets/brax-text.png" alt="Brax logo" /> to-do list
         </h1>
         <div className="row">
           <input
