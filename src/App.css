@@ -21,6 +21,13 @@
   }
 }
 
+@media (max-width: 480px) {
+  .todo-app {
+      margin: 20px auto 10px;
+      padding: 10px 7px 17px;
+  }
+}
+
 .todo-app h1 {
   color: #080f3d;
   display: flex;
